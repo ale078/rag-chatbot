@@ -1,0 +1,20 @@
+# Local data and secrets
+data/
+.env
+.venv/
+services/api/.env
+services/api/.venv/
+services/api/__pycache__/
+services/api/.pytest_cache/
+services/api/**/*.pyc
+
+# JavaScript dependencies/build
+node_modules/
+services/web/node_modules/
+services/web/dist/
+*.tsbuildinfo
+
+# Editors and OS
+.DS_Store
+Thumbs.db
+.vscode/
